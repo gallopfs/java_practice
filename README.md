@@ -1,3 +1,2 @@
 # java_practice
-Book Think In Java  code practice
-test edit
+Book Think In Java  code practicing
