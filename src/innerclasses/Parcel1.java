@@ -1,4 +1,4 @@
-package think_in_java_practice.com.test;
+package innerclasses;
 
 public class Parcel1 {
 	class Contents {
