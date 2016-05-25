@@ -27,7 +27,7 @@ public class SweetShop {
 		new Candy();
 		System.out.println("After creating Candy");
 		try {
-			Class.forName("Gum");
+			Class.forName("thinkinjava.typeinfo.Gum");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 			System.out.println("Counld not find Gum");
