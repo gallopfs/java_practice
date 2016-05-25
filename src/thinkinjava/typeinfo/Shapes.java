@@ -39,6 +39,6 @@ public class Shapes {
 		for (Shape shape : shapeList) {
 			shape.draw();
 		}
-		
+
 	}
 }
