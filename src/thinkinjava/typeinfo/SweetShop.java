@@ -1,3 +1,4 @@
+/*Examination of the way the class loader works.*/
 package thinkinjava.typeinfo;
 
 //import static net.mindview.util.Print.*;
@@ -28,9 +29,10 @@ public class SweetShop {
 		try {
 			Class.forName("Gum");
 		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
 			System.out.println("Counld not find Gum");
 		}
-		System.out.println("After Claas.forName(\"Gum\")");
+		System.out.println("After Class.forName(\"Gum\")");
 		new Cookie();
 		System.out.println("After creating Cookie");
 	}
