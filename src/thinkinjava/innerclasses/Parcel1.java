@@ -1,4 +1,4 @@
-package innerclasses;
+package thinkinjava.innerclasses;
 
 public class Parcel1 {
 	class Contents {
